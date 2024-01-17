@@ -69,4 +69,9 @@
         padding: 24px 23px;
         box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.24);
     }
+
+    .menuOpen {
+        display: flex;
+        z-index: 1;
+    }
 }

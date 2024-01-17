@@ -13,9 +13,10 @@ export const Navbar = () => {
             menuOpen 
             ? getImageUrl("nav/closeIcon.png")
             : getImageUrl("nav/menuIcon.png")
-        } alt='menu-butting' 
+        } alt='menu-button' 
         onClick={() => setMenuOpen(!menuOpen)}/>
-            <ul className={styles.menuItems}>
+            <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
+            onClick={() => setMenuOpen(false)}>
             <li><a href='#about'></a>About</li>
             <li><a href='#about'></a>Experience</li>
             <li><a href='#about'></a>Projects</li>
