@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import styles from "./Navbar.module.css";
-import { getImageUrl } from '../utils';
+import { getImageUrl } from '../../utils';
 
 
 export const Navbar = () => {
@@ -17,7 +17,7 @@ export const Navbar = () => {
         onClick={() => setMenuOpen(!menuOpen)}/>
             <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
             onClick={() => setMenuOpen(false)}>
-            <li><a href='#about'></a>About</li>
+            <li><a href='#about'></a>About Me</li>
             <li><a href='#about'></a>Experience</li>
             <li><a href='#about'></a>Projects</li>
             <li><a href='#about'></a>Contact</li>
