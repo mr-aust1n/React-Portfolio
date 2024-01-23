@@ -1,26 +1,26 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
+    "title": "Bedazzled",
+    "imageSrc": "projects/bedazzledwc.png",
+    "description": "This is a project  was made to learn Next.js/ Tailwind and Vercel.",
+    "skills": ["Next.js", "Tailwind", "Vercel"],
+    "demo": "https://www.craigaust.in",
     "source": "https://www.github.com"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
+    "title": "R&R",
+    "imageSrc": "projects/randr.png",
+    "description": "Web app to record a teammates hard work within the I.T department",
+    "skills": ["React", "Express", "MongoDB"],
+    "demo": "https://recogniseandreward.herokuapp.com",
     "source": "https://www.github.com"
   },
   {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
+    "title": "Nightscout",
+    "imageSrc": "projects/nightScoutDoo.png",
+    "description": "A project to improve my daughters diabetes. A constant glucose display.",
+    "skills": ["Azure", "Heroku", "Android Studio"],
+    "demo": "https://darcydoo.herokuapp.com",
     "source": "https://www.github.com"
   }
 ]
